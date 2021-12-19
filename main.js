@@ -16,19 +16,20 @@ function draw(){
     fill("lightblue")
     stroke("black")
     var mi = document.getElementById("mi").value 
-    if(difference <= 100){
+    if(difference <= 130 ){
         textFont("Comic")
         textSize(difference)
     text(mi,50,200)
-    }else if(difference > 100 && difference <= 200){
+    }else if(difference > 130 && difference <= 170){
         textFont("Cursive")
         textSize(difference)
     text(mi,50,200)
-    }else if(difference > 200 && difference < 1000){
+    }else if(difference > 170 ){
         textFont("Fantasy")
         textSize(difference)
     text(mi,50,200)
     }
+    
     
 }
 function modelLoaded(){
